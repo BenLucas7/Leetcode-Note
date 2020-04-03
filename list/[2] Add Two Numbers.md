@@ -1,8 +1,8 @@
 # [2] Add Two Numbers
 
-|    Tag    | Similar Problem |  Difficulty   |
-| :-------: | :-------------: | :-----------: |
-| traversal |       445       | $\star \star$ |
+|     Tag     | Similar Problem |  Difficulty   |
+| :---------: | :-------------: | :-----------: |
+| `traversal` |       445       | $\star \star$ |
 
 You can find this problem here：https://leetcode.com/problems/add-two-numbers/
 
