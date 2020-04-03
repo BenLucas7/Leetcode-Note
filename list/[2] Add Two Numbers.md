@@ -1,12 +1,12 @@
 # [2] Add Two Numbers
 
-|     Tag     | Similar Problem |  Difficulty   |
-| :---------: | :-------------: | :-----------: |
-| `traversal` |       445       | $\star \star$ |
+|     Tag     |  Similar Problem  |  Difficulty   |
+| :---------: | :---------------: | :-----------: |
+| `traversal` | [445](./[445].md) | $\star \star$ |
 
-You can find this problem here：https://leetcode.com/problems/add-two-numbers/
+* You can find this problem here：[2. Add Two Numbers](https://leetcode.com/problems/add-two-numbers/)
 
-**Special thanks to Huahua 🥳** ，you can find the solution of this problem in his blog：https://zxi.mytechroad.com/blog/simulation/leetcode-2-add-two-numbers-2/
+* **Special thanks to Huahua 🥳** ，you can find the detailed solution of this problem (with video) in his blog：[花花酱 LeetCode 2. Add Two Numbers](https://zxi.mytechroad.com/blog/simulation/leetcode-2-add-two-numbers-2/)
 
 
 
@@ -21,7 +21,7 @@ You may assume the two numbers do not contain any leading zero, except the numbe
 ### Special cases:
 
 1. 两个数字有不同的长度，e.g. `123 + 456789`
-2. 相加之后数位变长，e.g. `11 + 99 = 110`
+2. 相加之后数位变长，e.g. `11 + 99 = 110`
 
 
 
