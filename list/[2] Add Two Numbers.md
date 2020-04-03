@@ -1,12 +1,12 @@
 # [2] Add Two Numbers
 
-URL：https://leetcode.com/problems/add-two-numbers/
+You can find this problem here：https://leetcode.com/problems/add-two-numbers/
 
 **Special thanks to Huahua 🥳** ，you can find the solution of this problem in his blog：https://zxi.mytechroad.com/blog/simulation/leetcode-2-add-two-numbers-2/
 
 
 
-##### Problem definition：
+### Problem definition：
 
 You are given two **non-empty** linked lists representing two non-negative integers. The digits are stored in **reverse order** and each of their nodes contain a single digit. Add the two numbers and return it as a linked list.
 
@@ -14,14 +14,14 @@ You may assume the two numbers do not contain any leading zero, except the numbe
 
 
 
-##### Special cases:
+### Special cases:
 
 1. 两个数字有不同的长度，e.g. `123 + 456789`
 2. 相加之后数位变长，e.g. `11 + 99 = 110`
 
 
 
-##### Error Prone:
+### Error Prone:
 
 1. 判断当前结点有效的方法是，`l1?=None`，if `True`，则当前结点有效，否则为空结点
 2. 链表需要头尾指针，`dummy & tail`
@@ -30,7 +30,7 @@ You may assume the two numbers do not contain any leading zero, except the numbe
 
 
 
-##### Solution:
+### Solution:
 
 ```python
 class Solution:
