@@ -1,5 +1,9 @@
 # [2] Add Two Numbers
 
+|    Tag    | Similar Problem |  Difficulty   |
+| :-------: | :-------------: | :-----------: |
+| traversal |       445       | $\star \star$ |
+
 You can find this problem here：https://leetcode.com/problems/add-two-numbers/
 
 **Special thanks to Huahua 🥳** ，you can find the solution of this problem in his blog：https://zxi.mytechroad.com/blog/simulation/leetcode-2-add-two-numbers-2/
