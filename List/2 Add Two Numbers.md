@@ -1,12 +1,12 @@
 # [2] Add Two Numbers
 
-|     Tag     |          Similar Problem           |  Difficulty   |
-| :---------: | :--------------------------------: | :-----------: |
-| `traversal` | [445](./445 Add Two Numbers II.md) | $\star \star$ |
+|     Tag     | Similar Problem |  Difficulty   |
+| :---------: | :-------------: | :-----------: |
+| `traversal` |       445       | $\star \star$ |
 
 * You can find this problem here：[2. Add Two Numbers](https://leetcode.com/problems/add-two-numbers/)
 
-* **Special thanks to Huahua 🥳** ，you can find the detailed solution of this problem (with video) in his blog：[花花酱 LeetCode 2. Add Two Numbers](https://zxi.mytechroad.com/blog/simulation/leetcode-2-add-two-numbers-2/)
+* **Special thanks to Huahua** 🥳 you can find the detailed solution of this problem (with video) in his blog：[花花酱 LeetCode 2. Add Two Numbers](https://zxi.mytechroad.com/blog/simulation/leetcode-2-add-two-numbers-2/)
 
 
 

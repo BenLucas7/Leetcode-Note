@@ -2,11 +2,11 @@
 
 |     Tag     |       Similar Problem        |  Difficulty   |
 | :---------: | :--------------------------: | :-----------: |
-| `traversal` | [2](./2 Add Two Numbers.md) | $\star \star$ |
+| `traversal` | 2 | $\star \star$ |
 
 * You can find this problem here：[445. Add Two Numbers II](https://leetcode.com/problems/add-two-numbers-ii/)
 
-* **Special thanks to Huahua 🥳** ，you can find the detailed solution of this problem in his blog：[花花酱 LeetCode 445. Add Two Numbers II](https://zxi.mytechroad.com/blog/list/leetcode-445-add-two-numbers-ii/)
+* **Special thanks to Huahua 🥳** you can find the detailed solution of this problem in his blog：[花花酱 LeetCode 445. Add Two Numbers II](https://zxi.mytechroad.com/blog/list/leetcode-445-add-two-numbers-ii/)
 
 
 
