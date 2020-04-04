@@ -2,7 +2,7 @@
 
 |     Tag     |       Similar Problem        |  Difficulty   |
 | :---------: | :--------------------------: | :-----------: |
-| `traversal` | [2](./2. Add Two Numbers.md) | $\star \star$ |
+| `traversal` | [2](../2. Add Two Numbers.md) | $\star \star$ |
 
 * You can find this problem here：[445. Add Two Numbers II](https://leetcode.com/problems/add-two-numbers-ii/)
 
