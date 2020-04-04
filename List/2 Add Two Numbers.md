@@ -1,8 +1,8 @@
 # [2] Add Two Numbers
 
-|     Tag     |         Similar Problem         |  Difficulty   |
-| :---------: | :-----------------------------: | :-----------: |
-| `traversal` | [445](./445 Add Two Numbers II) | $\star \star$ |
+|     Tag     |          Similar Problem           |  Difficulty   |
+| :---------: | :--------------------------------: | :-----------: |
+| `traversal` | [445](./445 Add Two Numbers II.md) | $\star \star$ |
 
 * You can find this problem here：[2. Add Two Numbers](https://leetcode.com/problems/add-two-numbers/)
 
