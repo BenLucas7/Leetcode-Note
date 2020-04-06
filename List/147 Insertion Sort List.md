@@ -14,9 +14,7 @@
 
 Sort a linked list using insertion sort.
 
-
-
-![img](https://upload.wikimedia.org/wikipedia/commons/0/0f/Insertion-sort-example-300px.gif)
+![img](pic/147.gif)
 
 A graphical example of insertion sort. The partial sorted list (black) initially contains only the first element in the list.
 With each iteration one element (red) is removed from the input data and inserted in-place into the sorted list
@@ -50,7 +48,7 @@ dummy0 -> 1 -> 3 -> 5 -> 2 -> 4 - > null
 -- insert toInsert between toInsertPre and toInsertPre.next
 ```
 
-* ⚠️ **Attention**:  `toInsertPre` may be **far away** from `toInset`, so using  `toInsetPre.next.next = toInsert.next` to catch the linklist after `toInsert` can go wrong.
+* ⚠️ **Attention**:  `toInsertPre` may be **far away** from `toInset`, so using  `toInsetPre.next.next = toInsert.next` to catch the linklist after `toInsert` can go wrong.
 
 ### Solution:
 
