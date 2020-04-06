@@ -67,5 +67,6 @@ The idea is to move `fast` pointer **twice as quickly as** the `slow` pointer an
 
 1. 要注意 `while` 的循环条件 `while fast and fast.next`
    1. 如果是 `while fast` 则遇到单个结点的链表时，`fast = fast.next.next` 会报错，因为 `NoneType` 没有 `.next`
-   2. 如果是 `while fast.next` 则遇到空链表时，进入 `while` 循环会报错
-2. 是非存在环路的判断条件 `if slow == fast` 应该放在两指针以后会判断，因为初始条件时，`slow = fast = head`，会直接返回 `True` 
+   2. 如果是 `while fast.next` 则遇到空链表时，进入 `while` 循环会报错。
+   3. `fast.next == None` 表面已经走到了链表尽头，证明链表没有环。
+2. 是非存在环路的判断条件 `if slow == fast` 应该放在两指针以后会判断，因为初始条件时，`slow = fast = head`，会直接返回 `True` 
