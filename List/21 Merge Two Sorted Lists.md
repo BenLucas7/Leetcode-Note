@@ -46,21 +46,12 @@ class Solution:
             if l1.val <= l2.val:
                 tail.next = l1
                 l1 = l1.next
-                tail = tail.next # do not forget to move tail
             else:
                 tail.next = l2
                 l2 = l2.next
-                tail = tail.next # do not forget to move tail
+            tail = tail.next # do not forget to move tail
         
-        while l1: # add the remining list
-            tail.next = l1
-            l1 = l1.next
-            tail = tail.next
-        
-        while l2: # add the remining list
-            tail.next = l2
-            l2 = l2.next
-            tail = tail.next
+        tail.next = l1 or l2 # add the remining list, l1 if l1 else l2 costs more time
         
         return dummy.next
 ```
