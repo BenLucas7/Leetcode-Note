@@ -40,6 +40,9 @@ Explanation: There is a cycle in the linked list, where tail connects to the sec
 
 ### Solution:
 
+* Time complexity: $O(n)$
+* Space complexity: $O(1)$
+
 ```python
 class Solution:
     def hasCycle(self, head: ListNode) -> bool:

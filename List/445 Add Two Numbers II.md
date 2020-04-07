@@ -54,6 +54,9 @@ Output: 7 -> 8 -> 0 -> 7
 
 ### Solution:
 
+* Time complexity: $O(m+n)$
+* Space complexity: $O(\max (m,n))$ 
+
 ```python
 class Solution:
     def addTwoNumbers(self, l1: ListNode, l2: ListNode) -> ListNode:

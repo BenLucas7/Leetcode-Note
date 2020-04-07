@@ -50,7 +50,12 @@ dummy0 -> 1 -> 3 -> 5 -> 2 -> 4 - > null
 
 * ⚠️ **Attention**:  `toInsertPre` may be **far away** from `toInset`, so using  `toInsetPre.next.next = toInsert.next` to catch the linklist after `toInsert` can go wrong.
 
+
+
 ### Solution:
+
+* The time complexity is $O(n^2)$
+* The space complexity is $O(1)$
 
 ```python
 class Solution:
@@ -78,9 +83,6 @@ class Solution:
             
         return dummyHead.next
 ```
-
-* The time complexity is $O(n^2)$
-* The space complexity is $O(1)$
 
 
 

@@ -36,6 +36,9 @@ You may assume the two numbers do not contain any leading zero, except the numbe
 
 ### Solution:
 
+* Time complexity: $O(n)$
+* Space conplexity: $O(1)$
+
 ```python
 class Solution:
     def addTwoNumbers(self, l1: ListNode, l2: ListNode) -> ListNode:

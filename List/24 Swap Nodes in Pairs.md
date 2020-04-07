@@ -29,11 +29,14 @@ Output: 2 -> 1 -> 4 -> 3
 
 ### Special cases:
 
-1. 链表长度为奇数，e.g. `1`， `1 -> 2 -> 3`
+1. 链表长度为奇数，e.g. `1`， `1 -> 2 -> 3`
 
 
 
 ### Solution:
+
+* Time complexity: $O(n)$
+* Space complexity: $O(1)$
 
 ```python
 class Solution:
@@ -87,6 +90,6 @@ Output：1 -> 3 (原因如下)
 
 1. `while head.next and head.next.next:` 
    1. `while` 的判断条件同时考虑 `.next` 与 `.next.next`，即对单个剩余结点不采取操作，针对 special case
-   2. 如果固定 `head` 指针不变，即 `head` 在 `while` 循环之外，则交换打头两个结点需要更改一次 `head.next` ，否则会丢失链表头结点，且需要一个遍历指针 `p` 对后续链表进行遍历交换，显得繁琐。
+   2. 如果固定 `head` 指针不变，即 `head` 在 `while` 循环之外，则交换打头两个结点需要更改一次 `head.next` ，否则会丢失链表头结点，且需要一个遍历指针 `p` 对后续链表进行遍历交换，显得繁琐。
    3. 如果不固定 `head` 指针，即 `head` 在 `while` 循环之内，则 `head` 可以充当遍历指针 `p` ，不需要在循环外独立操作
-2. **`head` 的作用是接上交换后的链表**，如果交换指针指向的是**当前需要**交换的结点，就不能接上之前的链表（如 My Mistake），所以需要一个前向指针，即 `head`
+2. **`head` 的作用是接上交换后的链表**，如果交换指针指向的是**当前需要**交换的结点，就不能接上之前的链表（如 My Mistake），所以需要一个前向指针，即 `head`
