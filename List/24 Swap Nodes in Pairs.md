@@ -2,7 +2,7 @@
 
 |     Tag     |       Similar Problem        |  Difficulty   |
 | :---------: | :--------------------------: | :-----------: |
-| `reverse` |  | $\star \star$ |
+| `reverse` |  | 🌟🌟 |
 
 * You can find this problem here：[24. Swap Nodes in Pairs](https://leetcode.com/problems/swap-nodes-in-pairs/)
 
