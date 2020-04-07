@@ -55,7 +55,7 @@ class Solution:
     def sortList(self, head: ListNode) -> ListNode:
         
         # Splits the list into two parts, first n element and the rest.
-  	    # Returns the head of the rest.
+  	# Returns the head of the rest.
         def split(head: ListNode, n:int) -> ListNode:
             while n>1 and head:
                 head = head.next
@@ -66,7 +66,7 @@ class Solution:
             return rest
              
 
-				# Merges two lists, returns the head and tail of the merged list.
+	# Merges two lists, returns the head and tail of the merged list.
         def mergeTwoLists(l1: ListNode, l2: ListNode) -> ListNode:
             dummy = tail = ListNode(0)
 
