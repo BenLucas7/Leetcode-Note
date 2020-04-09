@@ -89,7 +89,7 @@ Explanation:
 
 4. In `addAtIndex` function:
 
-   1. <img src="./pic/707-insert.png" alt="707-insert" style="zoom:50%;" />
+   <img src="./pic/707-insert.png" alt="707-insert" />
 
    2. Again, as `get` function, instead of comparing the length of the linklist and the index to judge whether an index is valid( too many cases), it's better just to move a pointer `p` to the index(assume all the index is valid), and judge whether `p == None`
 
@@ -128,7 +128,7 @@ Explanation:
 
 5. In `deleteAtIndex` function:
 
-   1. <img src="./pic/707-delete.png" alt="707-insert" style="zoom:50%;" />
+   <img src="./pic/707-delete.png" alt="707-insert" />
 
    2. when using **doubly linked list**, the special case of this function is when delete the last node, say `last`, `last` has no `prev` attribute.
 
