@@ -4,7 +4,7 @@
 | :--------: | :-------------: | :--------: |
 | `linklist` |                 |    🌟🌟🌟🌟    |
 
-* You can find this problem here：[https://leetcode.com/problems/design-linked-list/](https://leetcode.com/problems/design-linked-list/)
+* You can find this problem here：[707. Design Linked List](https://leetcode.com/problems/design-linked-list/)
 
 
 
