@@ -79,7 +79,8 @@ public:
     }
     
 private:
-    void dfs(vector<int>& candidates, int target, int posi, vector<int>& cur, set<vector<int>>& ans){
+    void dfs(vector<int>& candidates, int target, int posi, 
+             vector<int>& cur, set<vector<int>>& ans){
         if(target==0){
             ans.insert(cur);
             return;

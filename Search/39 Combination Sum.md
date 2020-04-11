@@ -77,7 +77,8 @@ public:
     }
     
 private:
-    void dfs(vector<int>& candidates, int target, int posi, vector<int>& cur, vector<vector<int>>& ans){
+    void dfs(vector<int>& candidates, int target, int posi, 
+             vector<int>& cur, vector<vector<int>>& ans){
         if(target==0){
             ans.push_back(cur);
             return; // write return; statement to indicate end of function 
