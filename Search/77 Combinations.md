@@ -45,9 +45,9 @@ Output:
 
   ```c++
   for(auto elem:candidates){
-  		cur.push_back(elem) # start from elem
-  		DFS() # find the solution begin with elem
-  		cur.pop_back() # all the solution begin with elem has been considered, forget it.
+      cur.push_back(elem) # start from elem
+      DFS() # find the solution begin with elem
+      cur.pop_back() # all the solution begin with elem has been considered, forget it.
   }
   ```
 
@@ -58,16 +58,16 @@ Output:
 ```cpp
 void DFS(vector<int>&nums,int depth,int n,int position,
          vector<int>&curr,vector<vector<int>>&ans){
-		if(depth == n){
-				ans.push_back(curr);
-				return;
-		}
+    if(depth == n){
+	ans.push_back(curr);
+	return;
+    }
 }
 
 for(int i=position; i<nums.size();i++){
-		curr.push_back(nums[i]);
-		DFS(nums,depth,n,position+1,curr,ans) // position+1 avoids duplication.
-		curr.pop_back();
+    curr.push_back(nums[i]);
+    DFS(nums,depth,n,position+1,curr,ans) // position+1 avoids duplication.
+    curr.pop_back();
 }
 ```
 
