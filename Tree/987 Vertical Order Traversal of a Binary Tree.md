@@ -40,8 +40,15 @@ However, in the report "[1,5,6]", the node value of 5 comes first since 5 is sma
 ### Methodology:
 
 * Tag every node with coordinations (x,y).
-* **In the same location (x,y), node should be stored in ascent order, we can use `set` since internally, the elements in a `set` are always sorted.** 
-* Use `map<int,map<int,set<int>>>` to store the answer.
+
+* **In the same location (x,y), node should be stored in ascent order, we can use `multiset` since internally, the elements in a `multiset` are always sorted.** 
+
+  > Multisets are containers that store elements following a specific order, and **where multiple elements can have equivalent values**.
+  >
+  > <img src="./pic/multiset.jpg" style="zoom:75%;" />
+
+* Use `map<int,map<int,multiset<int>>>` to store the answer.
+
 * Traverse the tree in preorder.
 
 
@@ -77,8 +84,8 @@ private:
         }
         
         m[x][y].insert(root->val);
-        Traversal(root->left,x-1,y+1,m); // if use y-1 as the definition, 
-        Traversal(root->right,x+1,y+1,m);// the order in the vector would be descent
+        Traversal(root->left,x-1,y+1,m);
+        Traversal(root->right,x+1,y+1,m);
     }
 };
 ```
