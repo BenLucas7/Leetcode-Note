@@ -41,7 +41,7 @@ However, in the report "[1,5,6]", the node value of 5 comes first since 5 is sma
 
 * Tag every node with coordinations (x,y).
 
-* **In the same location (x,y), node should be stored in ascent order, we can use `multiset` since internally, the elements in a `multiset` are always sorted.** 
+* **In the same location (x,y), node should be stored in ascent order, we can use `multiset` since internally, the elements in a `multiset` are always sorted.** Also, `mutiset` allows duplication. 
 
   > Multisets are containers that store elements following a specific order, and **where multiple elements can have equivalent values**.
   >
