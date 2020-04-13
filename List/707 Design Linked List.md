@@ -1,4 +1,4 @@
-# [707] Design Linked List
+# 707 Design Linked List
 
 |    Tag     | Similar Problem | Difficulty |
 | :--------: | :-------------: | :--------: |

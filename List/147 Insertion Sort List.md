@@ -1,4 +1,4 @@
-# [147] Insertion Sort List
+# 147 Insertion Sort List
 
 |     Tag     |       Similar Problem        |  Difficulty   |
 | :---------: | :--------------------------: | :-----------: |
